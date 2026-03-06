@@ -1,0 +1,92 @@
+/* Reset default margin and padding */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body style */
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+/* Header */
+header{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+/* Navigation bar */
+nav{
+    background:#444;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav ul li{
+    margin:10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    padding:8px 15px;
+}
+
+nav ul li a:hover{
+    background:#666;
+    border-radius:5px;
+}
+
+/* Sections */
+section{
+    padding:40px;
+    margin:20px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2{
+    margin-bottom:15px;
+    color:#222;
+}
+
+/* Skills list */
+#skills ul{
+    list-style:square;
+    margin-left:20px;
+}
+
+/* Button */
+button{
+    padding:10px 20px;
+    border:none;
+    background:#007BFF;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
